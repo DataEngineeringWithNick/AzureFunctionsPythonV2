@@ -1,6 +1,3 @@
-# AzureFunctionsPythonV2
-Learn Azure Functions Python V2
-
 # Why use Azure Functions and what problem does it solve?
 Allows you to run your Python scripts/functions in Azure without having to create the infrastructure first
 
