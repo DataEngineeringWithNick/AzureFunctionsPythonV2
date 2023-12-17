@@ -1,3 +1,5 @@
+# YouTube Video: https://www.youtube.com/watch?v=I-kodc4bs4I
+
 # Why use Azure Functions and what problem does it solve?
 Allows you to run your Python scripts/functions in Azure without having to create the infrastructure first
 
