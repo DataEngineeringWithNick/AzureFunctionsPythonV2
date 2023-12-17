@@ -1,11 +1,10 @@
-import azure.functions as func
 import logging
+import azure.functions as func
 
 bp = func.Blueprint()
 
-#HTTP Trigger
-@bp.function_name('test_api33333')
-@bp.route(route="myroute", auth_level=func.AuthLevel.ANONYMOUS)
+@bp.function_name('AdditionalHTTPFunction')
+@bp.route(route="brandnewroute")
 def test_function(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
     return func.HttpResponse(
