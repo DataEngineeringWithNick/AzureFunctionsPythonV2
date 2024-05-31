@@ -38,7 +38,7 @@ def test_function(req: func.HttpRequest) -> func.HttpResponse:
 @app.function_name(name="MyFirstBlobFunction")
 @app.blob_trigger(arg_name="myblob", 
                   path="newcontainer/People.csv",
-                  connection="AdditionalStorage")
+                  connection="AzureWebJobsStorage")
 def test_function(myblob: func.InputStream):
    logging.info(f"Python blob Function triggered after the People.csv file was uploaded to the newcontainer. So cool!!!! \n"
                 f"Printing the name of the blob path: {myblob.name}"
