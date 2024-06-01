@@ -8,7 +8,7 @@ from additional_functions import bp
 
 app = func.FunctionApp()
 
-app.register_blueprint(bp)
+app.register_blueprint(bp) 
 
 @app.function_name('FirstHTTPFunction')
 @app.route(route="myroute", auth_level=func.AuthLevel.ANONYMOUS)
