@@ -8,7 +8,7 @@
 Allows you to run your Python scripts/functions in Azure without having to create the infrastructure first
 
 **Python developer article**: 
-[Python Functions V2 Developer](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-python?tabs=windows%2Cpowershell%2Cazure-cli&pivots=python-mode-decorators)
+[Python Functions V2 Developer Guide](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-python?tabs=windows%2Cpowershell%2Cazure-cli&pivots=python-mode-decorators)
 
 # Steps to create Azure Functions Locally
 
